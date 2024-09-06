@@ -62,7 +62,8 @@ mkdir build && cd build && cmake .. && make
 * Build with Qt6:
 ```sh
 mkdir build && cd build
-/path/to/qt6/bin/qt-cmake -DANDROID_NDK_ROOT=/path/to/ndk -DANDROID_SDK_ROOT=/path/to/sdk ..
+# /path/to/qt6/bin/qt-cmake -DANDROID_NDK_ROOT=/path/to/ndk -DANDROID_SDK_ROOT=/path/to/sdk ..
+~/Qt/6.6.3/android_arm64_v8a/bin/qt-cmake -DANDROID_NDK_ROOT=/home/xx/Android/Sdk/ndk/25.2.9519653 -DANDROID_SDK_ROOT=/home/xx/Android/Sdk
 make
 ```
 
